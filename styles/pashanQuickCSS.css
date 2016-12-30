@@ -1,0 +1,51 @@
+/* A CSS with things I commonly use in my work */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerMe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomShawdow {
+    -webkit-box-shadow: 0px 10px 26px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 26px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 26px -12px rgba(0, 0, 0, 0.75);
+}
+
+.verticalCenter {
+    display: flex;
+    align-items: center;
+}
+
+.right{
+  text-align: right;
+  float: right;
+}
+
+.left{
+  text-align: left;
+  float: left;
+}
+
+.circleImg{
+  border-radius: 50%;
+}
+
+.noPadding{
+  margin: 0px;
+  padding: 0px;
+}
+
+.half-block{
+  width: 50%;
+  display: flex;
+}
+
+.textBox{
+  width: 60%;
+}
