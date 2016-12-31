@@ -22,30 +22,44 @@
     align-items: center;
 }
 
-.right{
-  text-align: right;
-  float: right;
+.right {
+    text-align: right;
+    float: right;
 }
 
-.left{
-  text-align: left;
-  float: left;
+.left {
+    text-align: left;
+    float: left;
 }
 
-.circleImg{
-  border-radius: 50%;
+.circleImg {
+    border-radius: 50%;
 }
 
-.noPadding{
-  margin: 0px;
-  padding: 0px;
+.noPadding {
+    margin: 0px;
+    padding: 0px;
 }
 
-.half-block{
-  width: 50%;
-  display: flex;
+.half-block {
+    width: 50%;
+    display: flex;
 }
 
-.textBox{
-  width: 60%;
+.textBox {
+    width: 60%;
+}
+
+.icon {
+    width: 32px;
+    display: inline;
+}
+
+.cantSelect {
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
 }

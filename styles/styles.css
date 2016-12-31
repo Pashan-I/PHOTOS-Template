@@ -110,12 +110,21 @@ a:hover {
     }
 }
 
-.section{
-  color: white;
-  background-color: #191919;
-  padding: 100px;
+.section {
+    color: white;
+    background-color: #191919;
+    padding: 100px;
 }
 
-.circleImg{
-  margin-top: 25px;
+.circleImg {
+    margin-top: 25px;
+}
+
+.iconSet {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.iconSet img {
+  cursor: pointer;
 }
