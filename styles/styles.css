@@ -84,6 +84,8 @@ a:hover {
         -webkit-column-count: 4;
         column-count: 4;
     }
+
+
 }
 
 @media (max-width: 1000px) {
@@ -92,6 +94,8 @@ a:hover {
         -webkit-column-count: 3;
         column-count: 3;
     }
+
+
 }
 
 @media (max-width: 800px) {
@@ -100,6 +104,8 @@ a:hover {
         -webkit-column-count: 2;
         column-count: 2;
     }
+
+
 }
 
 @media (max-width: 400px) {
@@ -108,6 +114,12 @@ a:hover {
         -webkit-column-count: 1;
         column-count: 1;
     }
+
+
+}
+
+.textBox {
+    width: 60%;
 }
 
 .section {
